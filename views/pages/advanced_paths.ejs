@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include('../partials/head'); %>
+  </head>
+  <body class="container">
+    <main>
+      <div class="card-group" style="padding: 20px">
+        <div class="card">
+          <div class="card-header">
+            <h1>Test draggable advanced_path</h1>
+          </div>
+          <div class="card-body">
+            <ul id="sortable_path" class="breadcrumb">
+              <li class="disabled" style="padding-right: 10px">/</li>
+            </ul>
+          </div>
+          <div style="border: 1px solid black; height: 300px; width: 300px">
+            <ul id="paths" class="paths">
+              <li id="1">Item 1</li>
+              <li value="2">Item 2</li>
+              <li>Item 3</li>
+              <li id="4">Item 4</li>
+              <li>Item 5</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

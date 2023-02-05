@@ -1,0 +1,20 @@
+#sortable_path {
+  border: 2px solid brown;
+  height: 350px;
+  width: auto;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 20px;
+}
+.path-element {
+  border: 2px solid cadetblue;
+  height: 12px;
+  width: auto;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 20px;
+}
+html,
+body {
+  background-color: bisque;
+}
